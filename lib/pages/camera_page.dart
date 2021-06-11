@@ -12,7 +12,7 @@ class CameraPage extends StatefulWidget {
 
 class _CameraPageState extends State<CameraPage> {
   CameraController controller;
-  List cameras;
+  List cameras = [];
   int selectedCameraIdx;
   String imagePath;
   FlashMode flashMode = FlashMode.off;
